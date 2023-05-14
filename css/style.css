@@ -13,11 +13,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .header {
-
     height: 70px;
     width: 100%;
     background-color: #fff;
@@ -26,11 +24,9 @@
 
 .logo {
     color: #08A6E4;
-    font-size: 32;
+    font-size: 32px;
     line-height: 37px;
     font-weight: 300;
-
-
 }
 
 .nav-list {
@@ -55,10 +51,51 @@
     content: "";
     background: #08A6E4;
     cursor: pointer;
+}
+
+.open-section {
+    /*background-color: #b3d4fc;*/
+    flex-direction: column;
+    justify-content: normal;
+    height: 712px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    background-image: url('../assets/Background.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+
 
 
 }
 
+.open-section-title {
+    text-transform: capitalize;
+    justify-content: center;
+    margin-top: 130px;
+    color: #000;
+    font-size: 49px;
+    line-height: 57px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.open-section > p {
+    padding-top: 20px;
+}
+
+.open-section-button {
+    background-color: #08A6E4;
+    margin-top: 38px;
+    font-weight: 700;
+    padding: 22px 150px;
+    border-radius: 40px;
+    border-color: #08A6E4;
+    box-shadow: 5px 10px 14px rgba(7, 172, 230, .16);
+    color: #fff;
+
+
+}
 
 
 
