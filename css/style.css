@@ -1,3 +1,17 @@
-body {
-    font-family: 'Raleway', 'Open Sans', sans-serif;
+:root {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
 }
+
+* {
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    width: 1352px;
+}
+
+
+
+
+
