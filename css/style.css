@@ -28,9 +28,14 @@
     line-height: 37px;
     font-weight: 300;
 }
-
+.nav-header {
+    height: 100%;
+    width: 40%;
+}
 .nav-list {
     display: flex;
+
+    height: 100%;
     justify-content: space-between;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
@@ -40,17 +45,20 @@
 }
 
 .nav-list-link {
+    display: flex;
+    align-items: center;
     color: #A5A5A5;
-    padding: 30px 35px;
+    height: 100%;
+    border-bottom: 4px solid transparent;
     text-decoration: none;
     letter-spacing: 0.1rem;
+
 }
 
 .nav-list-link:hover {
     color: #000;
-    content: "";
-    background: #08A6E4;
     cursor: pointer;
+    border-bottom: 4px solid #08A6E4;
 }
 
 .open-section {
@@ -90,10 +98,9 @@
     font-weight: 700;
     padding: 22px 150px;
     border-radius: 40px;
-    border-color: #08A6E4;
+    border: none;
     box-shadow: 5px 10px 14px rgba(7, 172, 230, .16);
     color: #fff;
-
 
 }
 
