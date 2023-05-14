@@ -1,2 +1,3 @@
 # BestShop
-One-page using HTML and CSS
+It is my first one-page using HTML5 and CSS3.
+
