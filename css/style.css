@@ -1,6 +1,12 @@
 :root {
-    font-family: 'Raleway', sans-serif;
-    font-size: 40px;
+    --font-header: 'Raleway', sans-serif;
+    --font-para: 'Open Sans', sans-serif;
+    --color-primary: #08A6E4;
+    --color-primary-shadow: rgba(7, 172, 230, .16);
+    --color-grey: #A5A5A5;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --font-size-para: 16px 22px;
 }
 
 * {
@@ -23,21 +29,22 @@
 }
 
 .logo {
-    color: #08A6E4;
+    font-family: var(--font-header);
+    color: var(--color-primary);
     font-size: 32px;
     line-height: 37px;
     font-weight: 300;
 }
 .nav-header {
+    font-family: var(--font-header);
     height: 100%;
     width: 40%;
 }
 .nav-list {
     display: flex;
-
     height: 100%;
     justify-content: space-between;
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font-para);
     font-weight: bold;
     font-size: 11px;
     line-height: 15px;
@@ -47,12 +54,11 @@
 .nav-list-link {
     display: flex;
     align-items: center;
-    color: #A5A5A5;
+    color: var(--color-grey);
     height: 100%;
     border-bottom: 4px solid transparent;
     text-decoration: none;
     letter-spacing: 0.1rem;
-
 }
 
 .nav-list-link:hover {
@@ -62,30 +68,27 @@
 }
 
 .open-section {
-    /*background-color: #b3d4fc;*/
     flex-direction: column;
     justify-content: normal;
     height: 712px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font-para);
+    color: var(--color-black);
     font-size: 16px;
     line-height: 22px;
     background-image: url('../assets/Background.png');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
-
-
-
 }
 
 .open-section-title {
     text-transform: capitalize;
     justify-content: center;
     margin-top: 130px;
-    color: #000;
+    font-family: var(--font-header);
     font-size: 49px;
     line-height: 57px;
-    font-family: 'Raleway', sans-serif;
+
 }
 
 .open-section > p {
@@ -93,14 +96,14 @@
 }
 
 .open-section-button {
-    background-color: #08A6E4;
+    background-color: var(--color-primary);
     margin-top: 38px;
     font-weight: 700;
+    text-decoration: none;
     padding: 22px 150px;
     border-radius: 40px;
-    border: none;
-    box-shadow: 5px 10px 14px rgba(7, 172, 230, .16);
-    color: #fff;
+    box-shadow: 5px 10px 14px var(--color-primary-shadow);
+    color: var(--color-white);
 
 }
 
