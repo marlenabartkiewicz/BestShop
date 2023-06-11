@@ -104,8 +104,43 @@
     border-radius: 40px;
     box-shadow: 5px 10px 14px var(--color-primary-shadow);
     color: var(--color-white);
+}
+
+.statistic-section {
+    flex-direction: column;
+    justify-content: normal;
+    width: 100%;
+    height: 531px;
+    background-color: #cccccc;
+}
+
+.statistic-boxes {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+
+
 
 }
+
+.statistic-box {
+    width: 116px;
+    display: inline-flex;
+    flex-direction: column;
+    margin-right: 50px;
+
+}
+
+.statistic-title {
+    color: var(--color-black);
+    margin-top: 100px;
+    font-family: var(--font-header);
+    font-size: 36px;
+    line-height: 42px;
+}
+
 
 
 
