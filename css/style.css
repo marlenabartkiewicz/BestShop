@@ -12,6 +12,7 @@
 * {
     box-sizing: border-box;
 }
+
 .container {
     margin: 0 auto;
     width: 1352px;
@@ -35,11 +36,13 @@
     line-height: 37px;
     font-weight: 300;
 }
+
 .nav-header {
     font-family: var(--font-header);
     height: 100%;
     width: 40%;
 }
+
 .nav-list {
     display: flex;
     height: 100%;
@@ -120,9 +123,6 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 45px;
-
-
-
 }
 
 .statistic-box {
@@ -130,7 +130,6 @@
     display: inline-flex;
     flex-direction: column;
     margin-right: 50px;
-
 }
 
 .statistic-title {
